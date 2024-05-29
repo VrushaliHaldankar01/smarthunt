@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+sm-frontend/node_modules/
+sm-backend/node_modules/
+
+# Build output
+sm-frontend/build/
+sm-frontend/dist/
+sm-backend/dist/
+
+# Environment variable files
+sm-frontend/.env
+sm-backend/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+sm-frontend/.env.local
+sm-frontend/.env.development.local
+sm-frontend/.env.test.local
+sm-frontend/.env.production.local
